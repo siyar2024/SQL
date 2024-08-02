@@ -1,0 +1,25 @@
+create database hospitals;
+use hospitals;
+create table hospitals_info(id int,hos_name varchar(20),location varchar(20),patient_name varchar(20),patient_disease varchar(20),amount bigint,patient_age int,patient_gender varchar(20),patient_phone bigint,ward_no int);
+select * from hospitals_info;
+
+insert into hospitals_info values(1,'esi','bngl','suresh','fever',10000,50,'male',7694432168,123);
+insert into hospitals_info values(2,'adarsh','mngl','sudesh','cough',5000,40,'male',9694432168,23);
+insert into hospitals_info values(3,'pranav','udupi','surya','cancer',1000000,60,'male',8694432168,50);
+insert into hospitals_info values(4,'kasturba','manipal','sushma','head ache',10000,20,'female',9994432168,10);
+insert into hospitals_info values(5,'kokkarne','udupi','reshma','fever',8000,30,'female',8794432168,30);
+insert into hospitals_info values(6,'mandarthi','udupi','suresh','fever',10000,10,'male',9094432168,23);
+insert into hospitals_info values(7,'esi','bngl','gagana','leg pain',100000,20,'female',7694432168,12);
+insert into hospitals_info values(8,'adarsh','mngl','nayana','stomach pain',15000,505,'female',7794432168,20);
+insert into hospitals_info values(9,'pranav','bngl','neha','fever',10000,58,'female',8894432168,15);
+insert into hospitals_info values(10,'esi','bngl','shradda','vomitting',10000,50,'female',9994432168,12);
+insert into hospitals_info values(11,'victoria','bngl','sowmya','fever',10000,50,'female',9694432168,5);
+insert into hospitals_info values(12,'adarsh','mngl','keerthi','fever',5000,40,'female',8694432168,2);
+insert into hospitals_info values(13,'pranav','udupi','mala','stomach pain',1000000,60,'female',7694432168,18);
+insert into hospitals_info values(14,'kasturba','manipal','afas','head ache',10000,20,'male',9994234568,13);
+insert into hospitals_info values(15,'kokkarne','udupi','chaya','fever',8000,30,'female',9894432168,19);
+insert into hospitals_info values(16,'mandarthi','hassan','diya','fever',10000,10,'female',8984432168,25);
+insert into hospitals_info values(17,'esi','bngl','gagana','leg pain',100000,20,'female',8984498168,9);
+insert into hospitals_info values(18,'adarsh','bidar','nayana','stomach pain',15000,505,'female',9764432168,30);
+insert into hospitals_info values(19,'pranav','bngl','neha','fever',10000,58,'female',9124432168,35);
+insert into hospitals_info values(20,'esi','mngl','navya','vomitting',10000,50,'female',9004432168,22);
